@@ -2,7 +2,7 @@ c canister for the fission gas experiments
 c cell cards
 1	1	-5.28e-5	-1		IMP:N=1	$inner gas vessel and tube
 2	1	-5.28e-5	-2		IMP:N=1	$inner tube
-c 22	2	-1.94		-22		IMP:N=1	$salt in inner tube
+22	2	-1.94		-22		IMP:N=1	$salt in inner tube
 3	3	-8.00		1 2 -3	IMP:N=1	$upper first middle layer
 4	3	-8.00		2 -4		IMP:N=1	$exterior first middle layer
 5	1	-5.28e-5	3 4 -5	IMP:N=1	$upper second middle layer
@@ -17,9 +17,9 @@ c 22	2	-1.94		-22		IMP:N=1	$salt in inner tube
 c surface cards
 c top block
 1	RCC	0 0 0 0 0 1 0.375
-2	RCC	0 0 0 0 0 -4.71 0.09
-c 2	RCC	0 0 0 0 0 -4.71+x 0.09 $ air in tube
-c 22	RCC	0 0 -4.71+x 0 0 x 0.09 $ salt in tube
+c 2	RCC	0 0 0 0 0 -4.71 0.09
+2	RCC	0 0 0 0 0 -4.47 0.09 $ air in tube
+22	RCC	0 0 -4.47 0 0 0.24 0.09 $ salt in tube
 3	RCC	0 0 -0.125 0 0 1.25 0.5
 4	RCC	0 0 -0.125 0 0 -3.85 0.125
 5	RCC	0 0 -0.25 0 0 1.5 0.625
